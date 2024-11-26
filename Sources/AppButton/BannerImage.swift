@@ -23,4 +23,5 @@ struct BannerImage: View {
             .padding(.top, paddingTop)
             .clipped() // Clips any overflowing content to fit within the corner radius
     }
+    
 }
