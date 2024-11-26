@@ -7,14 +7,14 @@
 import Foundation
 import SwiftUI
 
-struct BannerImage: View {
+public struct BannerImage: View {
     var image: String
     var height: CGFloat = 200
     var width: CGFloat = 0
     var paddingTop: CGFloat = 10
     var cornerRadius: CGFloat = 25
     var padding: CGFloat = 0
-    var body: some View {
+    public var body: some View {
         Image(image)
             .resizable()
             .frame(width: width, height: height) // Specify only the height; width will adjust automatically
